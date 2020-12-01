@@ -1,0 +1,78 @@
+<html>
+    <body>
+        <h3>Previsão Ataque do Coração</h3>
+        <div>
+            <form action="/result" method="POST">
+				<label for="age">Idade</label>
+                <input type="text" id="age" name="age">
+                <br>
+				<spam>Possui Anemia?</spam>
+				<input type="radio" id="yes" name="anaemia" value="1">
+				<label for="yes">Sim</label>
+				<input type="radio" id="no" name="anaemia" value="0">
+				<label for="no">Não</label>
+				<br>
+				
+				<label for="creatinine_phosphokinase">Nível de Creatinofosfoquinase</label>
+                <input type="text" id="creatinine_phosphokinase" name="creatinine_phosphokinase">
+                <spam>mcg/L</spam>
+				<br>
+				
+				<spam>Possui Diabetes?</spam>
+				<input type="radio" id="yes" name="diabetes" value="1">
+				<label for="yes">Sim</label>
+				<input type="radio" id="no" name="diabetes" value="0">
+				<label for="no">Não</label>
+				<br>
+				
+				<label for="ejection_fraction">Fração de ejeção</label>
+                <input type="text" id="ejection_fraction" name="ejection_fraction">
+                <spam>%</spam>
+				<br>
+				
+				<spam>Possui Pressão alta?</spam>
+				<input type="radio" id="yes" name="high_blood_pressure" value="1">
+				<label for="yes">Sim</label>
+				<input type="radio" id="no" name="high_blood_pressure" value="0">
+				<label for="no">Não</label>
+				<br>
+				
+				<label for="platelets">Nível de plaquetas</label>
+                <input type="text" id="platelets" name="platelets">
+				<spam>kiloplatelets/mL</spam>
+                <br>
+				
+				<label for="serum_creatinine">Nível de creatinina</label>
+                <input type="text" id="serum_creatinine" name="serum_creatinine">
+				<spam>mg/dL</spam>
+                <br>
+				
+				<label for="serum_sodium">Nível de sodium</label>
+                <input type="text" id="serum_sodium" name="serum_sodium">
+				<spam>mEq/L</spam>
+                <br>
+				
+				<spam>Sexo</spam>
+				<input type="radio" id="male" name="sex" value="1">
+				<label for="male">Homem</label>
+				<input type="radio" id="female" name="sex" value="0">
+				<label for="female">Mulher</label>
+				<br>
+				
+				<spam>Fumante?</spam>
+				<input type="radio" id="yes" name="smoking" value="1">
+				<label for="yes">Sim</label>
+				<input type="radio" id="no" name="smoking" value="0">
+				<label for="no">Não</label>
+				<br>
+				
+				<label for="time">Tempo de acompanhamento</label>
+                <input type="text" id="time" name="time">
+				<spam>dias</spam>
+                <br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
